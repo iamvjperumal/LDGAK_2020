@@ -3,7 +3,7 @@ name: Docker Build, Kuberets Start
 on:
   push:
     branches:
-      - main
+      - prerun
   workflow_dispatch:
 
 jobs:

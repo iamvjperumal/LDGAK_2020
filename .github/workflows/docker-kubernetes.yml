@@ -23,7 +23,7 @@ jobs:
 
       - name: Docker Build and Push, Kubernetes apply
         run: |
-          docker build --tag ${{secrets.ACR_URL}}/levelupdevops:${{ github.sha }} .
-          docker push ${{secrets.ACR_URL}}/levelupdevops:${{ github.sha }}
+          docker build --tag ${{secrets.ACR_URL}}/ldgak-image:${{ github.sha }} .
+          docker push ${{secrets.ACR_URL}}/ldgak-image:${{ github.sha }}
 
 
